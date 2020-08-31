@@ -6,10 +6,10 @@ import Footer from '../footer/Footer'
 
 const App = () => {
   return (
-    <>
+    <div>
       <Header />
       <Footer />
-    </>
+    </div>
   )
 }
 

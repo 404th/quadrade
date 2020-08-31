@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import Navigator from './navigator/Navigator'
 import { NavLink } from 'react-router-dom'
+import Form from './form/Form'
 
 const Header = () => {
   return (
@@ -16,7 +17,11 @@ const Header = () => {
               <Navigator/>
             </div>
           </div>
-          <div className="col-3 p-0"></div>
+          <div className="col-3 p-0">
+            <div className="header_row_form">
+              <Form />
+            </div>
+          </div>
         </div>
       </div>
     </header>
