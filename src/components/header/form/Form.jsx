@@ -4,7 +4,7 @@ import './Form.css'
 
 const Form = () => {
   return (
-    <div>
+    <div className='header_row_form_buttons' >
       <NavLink className='signIn' to={'/signin'}>Sign in</NavLink>
       <NavLink className='trial' to={'/trial'}>Start trial</NavLink>
     </div>

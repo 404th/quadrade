@@ -11,14 +11,17 @@ const Header = () => {
         <div className="row header_row w-100 h-100">
           <NavLink className="header_row_brand col-2 p-0" to='/' >
             <span className='header_row_brand_logo '>Alivio</span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+            </button>
           </NavLink>
           <div className="header_row_navigation col-7 p-0">
-            <div className="header_row_navigation_cover">
+            <div className="header_row_navigation_cover nav navbar-nav " id="myNavbar">
               <Navigator/>
             </div>
           </div>
-          <div className="col-3 p-0">
-            <div className="header_row_form">
+          <div className="col-3 p-0 h-100 w-100">
+            <div className="header_row_form nav navbar-nav">
               <Form />
             </div>
           </div>
