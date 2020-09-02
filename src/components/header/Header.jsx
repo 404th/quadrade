@@ -1,13 +1,13 @@
 import React from 'react'
 import './Header.css'
 import { NavLink } from 'react-router-dom'
-import { NavigationButtons } from '../../statics'
+import { HeaderNavigationButtons } from '../../statics'
 
 const Header = () => {
 
   const setLi = () => {
     return (
-      NavigationButtons.map( (item, i) => {
+      HeaderNavigationButtons.map( (item, i) => {
         return (
           <li className='nav-item navigation_button_li' key={i} >
             <NavLink className='nav-link' to={ item[1] } >{ item[0] }</NavLink>
