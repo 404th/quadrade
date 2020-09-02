@@ -9,6 +9,7 @@ header .nav {
   background-color: transparent;
 }
 
+/* BRAND */
 .navbar_brand_logo span {
   color: #01996D;
   font-weight: bold;
@@ -21,6 +22,17 @@ header .nav {
   flex-wrap: wrap !important;
 }
 
+/* NAVIGATION BUTTONS */
+.navigation_button_li a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.navigation_button_li a:before {
+  content: '';
+}
+
+/* FORM BUTTONS */
 .navbar_forma_item {
   width: 50%;
   height: 100%;
@@ -31,4 +43,13 @@ header .nav {
   justify-content: center;
   align-items: center;
   color: black;
+}
+
+.navbar_forma_item:nth-child(1) a {
+  color: black;
+}
+
+.navbar_forma_item:nth-child(2) a {
+  color: #fff;
+  background-color: #01996D;
 }

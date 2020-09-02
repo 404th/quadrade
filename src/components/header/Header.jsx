@@ -9,7 +9,7 @@ const Header = () => {
     return (
       NavigationButtons.map( (item, i) => {
         return (
-          <li className='nav-item' key={i} >
+          <li className='nav-item navigation_button_li' key={i} >
             <NavLink className='nav-link' to={ item[1] } >{ item[0] }</NavLink>
           </li>
         )
@@ -34,10 +34,10 @@ const Header = () => {
           </ul>
           <ul className='navbar-nav navbar_forma p-0 col-3'>
             <li className='nav-item navbar_forma_item' >
-              <NavLink className='nav-link' to='/signIn'>Sign in</NavLink>
+              <NavLink className='nav-link signIn' to='/signIn'>Sign in</NavLink>
             </li>
             <li className='nav-item navbar_forma_item' >
-              <NavLink className='nav-link' to='/trial'>Trial</NavLink>
+              <NavLink className='nav-link trial' to='/trial'>Trial</NavLink>
             </li>
           </ul>
         </div>
@@ -45,27 +45,5 @@ const Header = () => {
     </header>
   )
 }
-
-{/* <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
-</nav> */}
 
 export default Header
