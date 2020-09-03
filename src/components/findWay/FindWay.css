@@ -1,0 +1,82 @@
+.contentCover {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentCover .findWayContent {
+  width: 100%;
+}
+
+.contentCover .simpleContent {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  height: 6%;
+  color: rgb(6, 129, 6)
+}
+
+.contentCover .greenContent {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  height: 20%;
+  line-height: 50px;
+  color: #01996D;
+}
+
+.contentCover .longContent {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+}
+
+/* NEXT BUTTON */
+.contentCover .nextButton {
+  width: 35%;
+  background-color: #01996D;
+  text-decoration: none !important;
+  height: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.contentCover .nextButton span {
+  color: #fff;
+  font-weight: 900;
+}
+
+.contentCover .nextButton:hover {
+  opacity: .5;
+  color: #fff;
+}
+
+.contentCover .nextButton:active {
+  opacity: .5;
+  color: darkgreen;
+}
+
+@media screen and (max-width:992px){
+  .contentCover .simpleContent {
+    height: 16%;
+    color: #fff;
+  }
+
+  .contentCover .greenContent {
+    height: 45%;
+  }
+
+}

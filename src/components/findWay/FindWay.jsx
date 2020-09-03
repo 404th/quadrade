@@ -1,19 +1,26 @@
 import React from 'react'
 import './FindWay.css'
 import { FindWayContents } from '../../statics'
+import { NavLink } from 'react-router-dom'
 
 const FindWay = () => {
   
   const setContents = () => {
     return FindWayContents.map( (item, i) => {
-      return ( `<span className=${ item[0] } key={i} >{ item[1] }</span>`
+      return (
+        <div className={ item[0] } key={i} >
+          <span>{ item[1] }</span>
+        </div>
       )
     } )
   }
-  
+
   return (
-    <div>
+    <div className={'contentCover'} >
       { setContents() }
+      <NavLink className={ 'nextButton m-lg-2 m-md-2 m-sm-1' } to={`/next_1`} >
+        <span>Next</span>
+      </NavLink>
     </div>
   )
 }
