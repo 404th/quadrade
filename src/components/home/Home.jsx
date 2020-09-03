@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import FindWay from '../findWay/FindWay'
+import { Switch, Route } from 'react-router-dom'
 
-const Home = props => {
-  let here = props.location.pathname
-  console.log( here )
+const Home = () => {
   return (
     <div className='container-fluid home_page'>
       <div className="container home_page_container">
@@ -19,7 +19,11 @@ const Home = props => {
             </p>
             <NavLink className={'p-lg-3 p-md-3 p-sm-2'} to={`/findway`}>Find your way</NavLink>
           </div>
-          <div className="offset-lg-1 col-lg-6 home_page_container_row_second"></div>
+          <div className="offset-lg-1 col-lg-6 home_page_container_row_second">
+            <Switch>
+              <Route path={ '/findway' } component={ FindWay } />
+            </Switch>
+          </div>
         </div>
       </div>
     </div>
