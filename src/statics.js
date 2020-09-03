@@ -1,5 +1,5 @@
 export const HeaderNavigationButtons = [
-  ['Why Alivio', '/why'],
+  ['Why Alivio', '/layout'],
   ['Solutions', '/solutions'],
   ['Community', '/community'],
   ['Pricing', '/pricing'],
