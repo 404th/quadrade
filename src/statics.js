@@ -13,12 +13,14 @@ export const FooterNavigationButtons = [
   ['Pricing', '/pricing'],
 ]
 
+//FIND YOUR WAY contents
 export const FindWayContents = [
   [ 'simpleContent findWayContent','How it works' ],
   [ 'greenContent findWayContent','Understand & Release the stress  in 3 steps' ],
   [ 'longContent findWayContent','Alivio offers as many journals it takes,tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress' ]
 ]
 
+//HOME FIND WAY SLIDER
 export const FindWaySliderItems = [
   { src:'./img/home/findway/findway_slider_1.svg',
     alt:'first item of the Slider',

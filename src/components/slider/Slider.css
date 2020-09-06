@@ -1,11 +1,12 @@
 .slider_item {
   margin-top: 50%;
   opacity: .2;
-  transition: opacity .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .slider_item:hover {
   opacity: 1;
+  transform: scale( 1.2 );
 }
 
 .slider_img {

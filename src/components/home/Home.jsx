@@ -12,6 +12,8 @@ const Home = () => {
     console.log( isVisible )
   }
 
+  console.log( document.querySelector('body') )
+
   return (
     <div className='container-fluid home_page'>
       <div className="container home_page_container">
