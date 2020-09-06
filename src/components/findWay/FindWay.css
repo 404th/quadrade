@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.home_page_container_row_second_nonVisible {
+  display: none !important;
+}
+
 .contentCover .findWayContent {
   width: 100%;
 }

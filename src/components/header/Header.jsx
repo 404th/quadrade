@@ -8,9 +8,6 @@ const Header = () => {
   const setLi = () => {
     return (
       HeaderNavigationButtons.map( (item, i) => {
-        console.log('====================================');
-        console.log(item[1]);
-        console.log('====================================');
         return (
           <li className='nav-item navigation_button_li' key={i} >
             <NavLink className='nav-link' to={ item[1] } >{ item[0] }</NavLink>
