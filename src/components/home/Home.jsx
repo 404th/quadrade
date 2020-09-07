@@ -26,7 +26,8 @@ const Home = () => {
               Let Alivio guide you, in a personalized journal
               experience, to overcome your stress
             </p>
-            <NavLink className={'p-lg-3 p-md-3 p-sm-2'} to={`/findway`} onClick={ () => setFindWay() } >Find your way</NavLink>
+            {/* <NavLink className={'p-lg-3 p-md-3 p-sm-2'} to={`/findway`} onClick={ () => setFindWay() } >Find your way</NavLink> */}
+            <div className={'p-lg-3 p-md-3 p-sm-2'} onClick={ () => setFindWay() } >Find your way</div>
           </div>
           <div className="offset-lg-1 col-lg-6 home_page_container_row_second">
             <FindWay setClass={ isVisible } />

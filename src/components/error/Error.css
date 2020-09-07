@@ -1,0 +1,67 @@
+.error_page {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C4C4DE;
+}
+
+.error_page .error_page_cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 75vh;
+}
+
+.error_page .error_page_cover img {
+  height: 100%;
+  animation-name: rotateImg;
+  animation-delay: 5s;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+}
+
+@keyframes rotateImg {
+  10% {
+    transform:rotate(1grad)
+  }
+
+  20% {
+    transform:rotate(2grad)
+  }
+
+  30% {
+    transform:rotate(4grad)
+  }
+
+  40% {
+    transform:rotate(2grad)
+  }
+
+  50% {
+    transform:rotate(0grad)
+  }
+
+  60% {
+    transform:rotate(-1grad)
+  }
+
+  70% {
+    transform:rotate(-2grad)
+  }
+
+  80% {
+    transform:rotate(-3grad)
+  }
+  
+  90% {
+    transform:rotate(-2grad)
+  }
+
+  100% {
+    transform:rotate(0grad)
+  }
+}
