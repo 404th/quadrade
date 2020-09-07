@@ -1,0 +1,87 @@
+.why_page {
+  height: 100vh;
+  background-color: #056674;
+  /* 00695c */
+}
+
+.why_page_container {
+  height: 100%;
+}
+
+.why_page_container_row {
+  height: 100%;
+}
+
+.why_page_container_row_first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.why_page_container_row_first h2 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.why_page_container_row_first p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.why_page_container_row_first div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: #01996D;
+  opacity: 1;
+  transition: opacity .15s ease-in;
+  font-weight: bold;
+}
+
+.why_page_container_row_first div:hover {
+  opacity: .5;
+  color: #fff;
+}
+
+.why_page_container_row_first div:active {
+  opacity: .5;
+  color: darkgreen;
+}
+
+/* SECOND PAGE OF IN WHY COMP */
+.why_page_container_row_second {
+  height: 100%;
+}
+
+.why_page_container_row_second_cover {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why_page_container_row_second_cover iframe {
+  width: 100%;
+  height: 35%;
+  border-radius: 15px;
+  border: 5px solid green;
+}
+
+@media screen and (max-width:992px){
+  .why_page_container_row_first div {
+    width: 25%;
+  }
+}

@@ -1,10 +1,12 @@
+// HEADER
 export const HeaderNavigationButtons = [
-  ['Why Alivio', '/way'],
+  ['Why Alivio', '/why'],
   ['Solutions', '/solutions'],
   ['Community', '/community'],
   ['Pricing', '/pricing'],
 ]
 
+//FOOTER
 export const FooterNavigationButtons = [
   ['Alivio', '/'],
   ['Why Alivio', '/why'],
@@ -13,11 +15,11 @@ export const FooterNavigationButtons = [
   ['Pricing', '/pricing'],
 ]
 
-//FIND YOUR WAY contents
-export const FindWayContents = [
-  [ 'simpleContent findWayContent','How it works' ],
-  [ 'greenContent findWayContent','Understand & Release the stress  in 3 steps' ],
-  [ 'longContent findWayContent','Alivio offers as many journals it takes,tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress' ]
+//HOME
+export const HomeContents = [
+  { classNames:'simpleContent findWayContent',title:'How it works' },
+  { classNames:'longContent findWayContent',title:'Everyone experiences stress in different ways.Let Alivio guide you, in a personalized journal experience, to overcome your stress'},
+  { classNames:'buttonContent findWayContent',title:'Find your way' },
 ]
 
 //HOME FIND WAY SLIDER
@@ -37,4 +39,12 @@ export const FindWaySliderItems = [
     name:'Alivio!',
     className:'',
     title:'Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!'},
+]
+
+//VIDEO URL => https://youtu.be/inNAvP5kwB0   FOR WHY ALIVIO
+//HOME
+export const WhyContents = [
+  { classNames:'simpleContent findWayContent',title:'Let`s hear about Kayla`s success story' },
+  { classNames:'longContent findWayContent',title:'See how well Alivio works in a real customer’s life.'},
+  { classNames:'buttonContent findWayContent',title:'Let`s get started' },
 ]
