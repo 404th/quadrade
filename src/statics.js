@@ -48,3 +48,12 @@ export const WhyContents = [
   { classNames:'longContent findWayContent',title:'See how well Alivio works in a real customer’s life.'},
   { classNames:'buttonContent findWayContent',title:'Let`s get started' },
 ]
+
+//Why
+export const WhyVideos = {
+  iframe_url:'https://www.youtube.com/embed/rmqvHAaJD54',
+  iframe_title:'Just alghebra videos',
+  iframe_width: '100%',
+  iframe_height: '40%', 
+  allowFullScreen: true,
+}
