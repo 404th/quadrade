@@ -20,8 +20,7 @@ const Why = () => {
                       allowFullScreen={ WhyVideos.allowFullScreen }
                       height={ WhyVideos.iframe_height }
                       width={ WhyVideos.iframe_width }
-              >
-              </iframe>
+              />
             </div>
           </div>
         </div>

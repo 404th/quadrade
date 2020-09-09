@@ -9,7 +9,6 @@ const Home = () => {
 
   const setFindWay = () => {
     setVisible( !isVisible )
-    console.log( isVisible )
   }
 
   return (
